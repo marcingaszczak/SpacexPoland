@@ -1,0 +1,627 @@
+body
+{
+	font-family: 'Lato', sans-serif;
+	background-color: #232724;
+	color: #ffffff;
+	text-align: center
+}
+
+.logo
+{
+	border-bottom: 1px solid #ffffff;
+	background-color: #000000;
+}
+
+.menu
+{
+	background-color: #000000;
+	border-bottom: 1px solid #ffffff;
+}
+
+.vehiclesmenu:hover
+{
+	background-color: #1e3a63;
+	color: #ffffff;
+}
+
+.menuitems
+{
+	padding-left: 45px !important;
+	padding-right: 45px !important;
+	border-bottom: none;
+}
+
+.newscontainer
+{
+	border: 1px solid #ffffff;
+	border-radius: 0px 10px 10px 0px;
+	margin-bottom: 40px;
+	color: #ffffff;
+}
+
+.newscontainer:hover
+{
+	color: #1e3a63;
+	background-color: #A7A9AC;
+	cursor: pointer;
+}
+
+@media (max-width: 575px)
+{
+	.menu
+	{
+		font-size: 10px !important;
+	}
+	.vehiclesmenu
+	{
+		font-size: 10px !important;
+	}
+	.image
+	{
+		width: 100% !important;
+		height: 200px !important;
+	}
+	.newscontainer
+	{
+		margin: 20px;
+		border-radius: 0px 0px 10px 10px;
+	}
+	.closestflight
+	{
+		margin-left: 0px !important;
+		min-height: 250px !important;
+		margin: 20px !important;
+	}
+	.closestflightspec
+	{
+		font-size: 12px !important;
+		
+	}
+	.closestflightvalues
+	{
+		font-size: 12px !important;
+	}
+	.fbandyt
+	{
+		text-align: center !important;
+	}
+
+	.twandsx
+	{
+		text-align: center !important;
+	}
+	.maincontent
+	{
+		margin: 20px !important;
+	}
+		.nofmission
+	{
+		margin-top: 5px;
+		margin-bottom: 5px;
+		font-size: 20px !important;
+		padding-bottom: 10px;
+	}
+
+	.miniature
+	{
+		margin-top: 5px;
+		margin-bottom: 5px;
+		padding-left: 80px;
+		padding-right: 80px;
+	}
+
+	.nameofmission
+	{
+		margin-top: 5px;
+		margin-bottom: 5px;
+		font-size: 20px !important;
+		padding-bottom: 10px;
+	}
+
+	.status
+	{
+		margin-top: 5px;
+		margin-bottom: 5px;
+		padding-left: 80px;
+		padding-right: 80px;
+	}
+
+	.date
+	{
+		margin-top: 5px;
+		margin-bottom: 5px;
+		font-size: 20px !important;
+		padding-bottom: 10px;
+	}
+
+	.rocketname
+	{
+		margin-top: 5px;
+		margin-bottom: 5px;
+		font-size: 20px !important;
+		padding-bottom: 10px;
+	}
+
+	.arrow
+	{
+		max-height: 50px !important;
+	}
+
+	.missioncontainerdes
+	{
+		font-size: 11px;
+		text-align: center;
+	}
+}
+
+@media (min-width: 576px) and (max-width: 765px)
+{
+	.menu
+	{
+		font-size: 11px !important;
+	}
+	.vehiclesmenu
+	{
+		font-size: 11px !important;
+	}
+	.menuitems
+	{
+		padding-left: 25px !important;
+		padding-right: 25px !important;
+	}
+	.image
+	{
+		width: 100% !important;
+		height: 200px !important;
+	}
+	.closestflight
+	{
+		margin-left: 0px !important;
+		min-height: 300px;
+		margin-left: -15px !important;
+		margin-right: -15px;
+		font-size: 25px !important;
+	}
+	.fbandyt
+	{
+		text-align: center !important;
+	}
+
+	.twandsx
+	{
+		text-align: center !important;
+	}
+}
+
+@media (min-width: 766px) and (max-width: 991px)
+{
+	.menu
+	{
+		font-size: 13px !important;
+	}
+	.vehiclesmenu
+	{
+		font-size: 13px !important;
+	}
+	.menuitems
+	{
+		padding-left: 35px !important;
+		padding-right: 35px !important;
+	}
+	.image
+	{
+		width: 100% !important;
+		height: 220px !important;
+	}
+	.content
+	{
+		font-size: 14px !important;
+		text-align: justify;
+		padding-top: 10px;
+	}
+	.closestflight
+	{
+		margin-left: 0px !important;
+		min-height: 300px;
+	}
+}
+
+@media (min-width: 992px) and (max-width: 1199px)
+{
+	.image
+	{
+		width: 100% !important;
+		height: 230px !important;
+	}
+	.content
+	{
+		font-size: 13px !important;
+		text-align: justify;
+		padding-top: 10px;
+	}
+	.closestflightspec
+	{
+		font-size: 12px !important;
+		
+	}
+	.closestflightvalues
+	{
+		font-size: 12px !important; 
+	}
+	.closestflight
+{
+	min-height: 350px !important;
+}
+}
+
+ul > li:hover
+{
+	background-color: #1e3a63;
+}
+
+.content
+{
+	font-size: 16px;
+	text-align: justify;
+	padding-top: 10px;
+	
+}
+
+.content:hover
+{
+	text-decoration: none !important;
+}
+
+.centered-and-cropped 
+{ 
+	object-fit: cover ;
+	padding: 0;
+	margin: 0;
+}
+
+.image
+{
+	 width: 250px;
+	 height: 250px;
+}
+
+.date
+{
+	font-size: 10px !important;
+	padding: 0px;
+	margin: 0px;
+}
+
+.readmore
+{
+	text-align: right;
+	font-weight: bold;
+}
+
+.showmorenews
+{
+	border: 1px solid #ffffff;
+	border-radius: 10px;
+	margin-left: -15px;
+	margin-right: -15px;
+	margin-bottom: 40px;
+	padding: 10px;
+}
+
+.showmorenews:hover
+{
+	color: #1e3a63;
+	background-color: #A7A9AC;
+	cursor: pointer;
+}
+
+.closestflight
+{
+	border: 1px solid #ffffff;
+	border-radius: 10px;
+	margin-left: 40px;
+	min-height: 500px;
+	padding: 10px;
+	font-size: 15px;
+	margin-bottom: 30px;
+	color: white;
+}
+
+.closestflight:hover
+{
+	color: #1e3a63;
+	background-color: #A7A9AC;
+	cursor: pointer;
+}
+
+.closestflightspec
+{
+	float: left;
+	text-align: right;
+	min-width: 40%;
+	margin-top: 20px;
+	font-size: 16px;
+	line-height: 200%;
+	margin-bottom: 10px;
+	
+}
+.closestflightvalues
+{
+	float: left;
+	margin-top: 20px;
+	font-size: 16px;
+	line-height: 200%;
+	padding-left: 10px;
+	text-align: left;
+	margin-bottom: 10px;
+}
+
+.closestflightreadmore
+{
+	clear: both;
+	font-size: 15px;
+	text-align: right;
+	padding-top: 20px;
+	border-top: 1px solid #ffffff;
+}
+
+.fot
+{
+	background-color: #000000;
+	border-top: 1px solid #ffffff;
+}
+
+.facebook
+{
+	display: inline-block;
+	padding: 30px;
+	color: #ffffff;
+}
+
+.facebook:hover
+{
+	background-color: #4267B2;
+	cursor: pointer;
+	
+}
+
+.youtube
+{
+	display: inline-block;
+	padding: 30px;
+	color: #ffffff;
+}
+
+.youtube:hover
+{
+	background-color: #c4302b;
+	cursor: pointer;
+	
+}
+
+.twitter
+{
+	display: inline-block;
+	padding: 30px;
+	color: #ffffff;
+}
+
+.twitter:hover
+{
+	background-color: #1da1f2;
+	cursor: pointer;
+}
+
+.spacex
+{
+	display: inline-block;
+	padding: 30px;
+	color: #ffffff;
+}
+
+.spacex:hover
+{
+	background-color: #A7A9AC;
+	cursor: pointer;
+}
+
+.copyrights
+{
+	margin-top: 20px;
+	font-size: 12px;
+}
+
+.fbandyt
+{
+	text-align: right;
+	padding: 0;
+}
+
+.twandsx
+{
+	text-align: left;
+	padding: 0;
+}
+
+.nounderline:hover
+{
+	text-decoration: none;
+}
+
+.closestflight:hover .secoundlinecf
+{
+	background-color: #A7A9AC;
+	color: #1e3a63;
+}
+
+.closestflight:hover .firstlinecf
+{
+	background-color: #A7A9AC;
+	color: #1e3a63;
+}
+
+.secoundlinecf
+{
+	background-color: #2a2e2b;
+}
+
+.table
+{
+	color: #ffffff;
+	font-size: 11px;
+	text-align: left;
+	padding-top: 20px;
+}
+
+td 
+{ 
+	border: none !important;
+	padding: 2px 12px 2px 12px !important;
+}
+
+/* here begins css for news*/
+
+.maincontent
+{
+	border: 1px solid #ffffff;
+	border-radius: 10px;
+	padding: 20px;
+	text-align: justify;
+	margin-bottom: 40px;
+}
+
+.descriptionofpicture
+{
+	font-size: 12px;
+}
+
+.quote
+{
+	background-color: #353936;
+	padding: 15px;
+	font-size: 15px;
+	font-weight: 300;
+	margin-bottom: 10px;
+}
+
+.quoteauthor
+{
+	background-color: #353936;
+	font-weight: 300;
+	font-size: 18px;
+	padding-top: 5px;
+}
+
+.movie
+{
+	margin-bottom: 15px;
+}
+
+.source
+{
+	font-size: 12px;
+	padding-top: 20px;
+}
+
+.picturenexttotextright
+{
+	float: right;
+	max-width: 50%;
+	height: auto;
+	margin-left: 15px;
+}
+
+.picturenexttotextleft
+{
+	float: left;
+	max-width: 50%;
+	height: auto;
+	margin-right: 15px;
+}
+
+.secoundline
+{
+	background-color: #2a2e2b;
+}
+
+/*styles for mission list*/
+
+.missioncontainer
+{
+	font-size: 13px;
+	text-align: center;
+	margin-top: 10px;
+}
+
+.missioncontainer:hover
+{
+	background-color: #A7A9AC; 
+	color: #1e3a63;
+}
+
+.nofmission
+{
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
+
+.miniature
+{
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
+
+.nameofmission
+{
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
+
+.status
+{
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
+
+.date
+{
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
+
+.rocketname
+{
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
+
+.arrow
+{
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
+
+.missioncontainerdes
+{
+	font-size: 11px;
+	text-align: center;
+}
+
+/*styles for falcon heavy*/
+
+.tablefh
+{
+	margin: auto !important;
+	border: 1px solid #ffffff;
+}
+
+.trfh1
+{
+	font-weight: 700 !important;
+	font-size: 18px;
+}
+
+.tdfh
+{
+	border: 1px solid #ffffff !important;
+}

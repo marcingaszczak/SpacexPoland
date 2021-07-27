@@ -1,0 +1,19 @@
+### PROTECT FILES ###
+<FilesMatch "\.(htaccess|htpasswd|ini|fla|psd|log|sh)$">
+Order Allow,Deny
+Deny from all
+</FilesMatch>
+
+RewriteEngine on
+RewriteRule SpaceX-aktualnosci index.html
+RewriteRule najblizszy-start closestflight.html
+RewriteRule kapsula-dragon dragon.html
+RewriteRule falcon9 falcon9.html
+RewriteRule falcon-heavy falconheavy.html
+RewriteRule kontakt kontakt.html
+RewriteRule lista-planowanych-misji listastartow.html
+RewriteRule starship-uszkodzony-podczas-testow news01.html
+RewriteRule spacex-dolacza-do-programu-CLPS news02.html
+RewriteRule test-silnikow-kapsuly-dragon news03.html
+RewriteRule o-spacex ospacex.html
+RewriteRule starship starship.html
